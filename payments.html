@@ -25,60 +25,145 @@
         <a class="focusable" href="services.html">Services</a>
         <a class="focusable" href="petroleum.html">Petroleum</a>
         <a class="focusable" href="payments.html" aria-current="page">Payment Systems</a>
+        <a class="focusable" href="technology.html">Technology</a>
         <a class="focusable" href="case-studies.html">Case Studies</a>
         <a class="focusable" href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
+
   <main id="content">
-    <section class="hero">
+    <section class="page-hero hero">
       <div class="wrap page-hero-grid">
         <div>
           <div class="eyebrow">Payment Systems</div>
           <h1>Payment technology support for EMV, terminals, and certified transaction flows</h1>
-          <p>WannLynx helps payment teams and POS vendors connect terminals, processors, and middleware while preserving traceability through certification, troubleshooting, and production support.</p>
+          <p class="lead">WannLynx helps payment teams and POS vendors connect terminals, processors, and middleware while preserving traceability through certification, troubleshooting, and production support.</p>
         </div>
-        <div class="card">
-          <h3>Payment platform capabilities</h3>
-          <ul>
-            <li>EMV certification support</li>
-            <li>Processor integrations</li>
-            <li>Android-based payment terminals</li>
-            <li>POS/payment middleware</li>
-            <li>Secure transaction routing</li>
-            <li>Device-to-cloud communication</li>
+
+        <figure class="hero-image">
+          <img src="assets/images/payment-terminal.png" alt="Android payment terminal and cloud-connected payment interface">
+          <figcaption class="hero-figure-caption">
+            <strong>Payment platforms need traceability from the terminal to the processor</strong>
+            <span>WannLynx builds software that makes those transitions easier to debug and support.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap panel">
+        <div class="section-heading">
+          <div class="section-label">EMV Certification Support</div>
+          <h2>Support for payment certification and terminal behavior</h2>
+          <p>Certification programs work best when the integration team can see the transaction path clearly, capture useful logs, and isolate the issue without guessing.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="card">
+            <h3>Test-phase visibility</h3>
+            <p>WannLynx helps expose the state and logs needed during certification testing so defects can be separated from expected terminal behavior.</p>
+          </article>
+          <article class="card">
+            <h3>Terminal workflows</h3>
+            <p>Support for payment terminal flows, card-present behavior, and the transitions between idle, authorization, and completion states.</p>
+          </article>
+          <article class="card">
+            <h3>Processor handoff</h3>
+            <p>Support for the handoff from terminal and middleware into processor systems, where integration failures often become difficult to trace.</p>
+          </article>
+          <article class="card">
+            <h3>Production support</h3>
+            <p>After certification, the same visibility helps support teams troubleshoot field issues without rebuilding the problem from scratch.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-band">
+      <div class="wrap split-card">
+        <div class="callout">
+          <div class="section-label">Processor and Middleware Integrations</div>
+          <h2>Clean transaction routing across the payment stack</h2>
+          <p>WannLynx works on the software layer that links terminals, middleware, and processors. That means secure routing, controlled retries, and clear evidence when a transaction path breaks.</p>
+          <ul class="detail-list">
+            <li>Processor integrations with clear handoff points</li>
+            <li>Middleware that can be observed and debugged</li>
+            <li>Transaction logs that show what the system actually did</li>
+            <li>Integration behavior that supports production support teams</li>
+          </ul>
+        </div>
+
+        <div class="callout">
+          <div class="section-label">Android Payment Terminals</div>
+          <h2>Modern terminal workflows with practical support paths</h2>
+          <p>Android payment terminals often sit in the middle of retail operations, user experience, and security requirements. WannLynx builds interfaces and backend support systems that keep that workflow tractable.</p>
+          <ul class="detail-list">
+            <li>Terminal-facing workflow support</li>
+            <li>Secure device-to-cloud communication</li>
+            <li>Field-friendly logging and diagnostics</li>
+            <li>Designs that support support teams, not just demos</li>
           </ul>
         </div>
       </div>
     </section>
+
     <section class="section">
-      <div class="wrap card-shell">
-        <div class="feature-grid">
+      <div class="wrap panel">
+        <div class="section-heading">
+          <div class="section-label">Troubleshooting and Observability</div>
+          <h2>Built to support the people who need to debug the system</h2>
+          <p>Payment problems are easier to fix when the system shows the transaction history, the log trail, and the stage where the behavior changed. WannLynx focuses on making those details available.</p>
+        </div>
+
+        <div class="card-grid">
           <article class="card">
-            <h3>Troubleshooting and certification support</h3>
-            <ul>
-              <li>Troubleshooting logs and certification test support</li>
-              <li>Clear transaction-state tracing</li>
-              <li>Terminal, processor, and middleware integration points</li>
-              <li>Practical support for production rollback and recovery</li>
-            </ul>
+            <h3>Troubleshooting logs</h3>
+            <p>Logs are structured to help engineers and support staff see the path the transaction took, not just the final error code.</p>
           </article>
           <article class="card">
-            <h3>Production-minded delivery</h3>
-            <p>WannLynx focuses on systems that must operate under real retail pressure. That means traceable failures, controlled retries, reliable logging, and support paths that are useful after deployment, not just during testing.</p>
+            <h3>Certification test support</h3>
+            <p>During certification, the same observability makes it easier to understand whether a failure came from the terminal, the middleware, or the processor side.</p>
+          </article>
+          <article class="card">
+            <h3>Observability tools</h3>
+            <p>Traceability, searchable transaction data, and clear state changes give teams a better way to support production devices after deployment.</p>
           </article>
         </div>
       </div>
     </section>
+
+    <section class="section">
+      <div class="wrap callout">
+        <div class="section-label">Payment System Outcomes</div>
+        <h2>WannLynx helps teams move from uncertain integration to supportable production systems</h2>
+        <p>That usually means fewer blind spots during certification, cleaner handoffs between device and cloud layers, and software that supports the operations team after launch.</p>
+        <div class="pager">
+          <a class="button button-primary focusable" href="contact.html">Discuss a payment project</a>
+          <a class="button button-secondary focusable" href="case-studies.html">See example work</a>
+        </div>
+      </div>
+    </section>
   </main>
+
   <footer class="footer">
     <div class="wrap footer-panel">
       <div class="footer-brand">
         <img class="brand-mark" src="wannlynx_logo-removebg-preview.png" alt="WannLynx Technologies logo">
-        <div><strong>WannLynx Technologies Inc.</strong><p>Payment and petroleum software engineering for complex retail environments.</p></div>
+        <div>
+          <strong>WannLynx Technologies Inc.</strong>
+          <p>Payment and petroleum software engineering for complex retail environments.</p>
+          <p><a class="focusable" href="mailto:dwanner@wannlynx.com">dwanner@wannlynx.com</a></p>
+        </div>
       </div>
       <div class="footer-links" aria-label="Footer">
-        <a class="focusable" href="index.html">Home</a><a class="focusable" href="services.html">Services</a><a class="focusable" href="petroleum.html">Petroleum</a><a class="focusable" href="payments.html">Payment Systems</a><a class="focusable" href="case-studies.html">Case Studies</a><a class="focusable" href="contact.html">Contact</a>
+        <a class="focusable" href="index.html">Home</a>
+        <a class="focusable" href="services.html">Services</a>
+        <a class="focusable" href="petroleum.html">Petroleum</a>
+        <a class="focusable" href="payments.html">Payment Systems</a>
+        <a class="focusable" href="technology.html">Technology</a>
+        <a class="focusable" href="case-studies.html">Case Studies</a>
+        <a class="focusable" href="contact.html">Contact</a>
       </div>
       <p>&copy; 2026 WannLynx Technologies Inc. All rights reserved.</p>
     </div>
